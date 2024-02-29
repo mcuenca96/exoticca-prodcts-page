@@ -18,9 +18,16 @@
       }
     ],
     "paths": {
-      "@components/*": ["./src/*"]
+      "@store/*": ["./src/store/*"],
+      "@store": ["./src/store"],
+      "@theme/*": ["./src/theme/*"],
+      "@theme": ["./src/theme"],
+      "@types/*": ["./src/types/*"],
+      "@types": ["./src/types"],
+      "@components/*": ["./src/app/*"],
+      "@hooks": ["./src/hooks"],
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/DestinationsGrid/components/DestinationsGrid/DestinationsGrid.tsx"],
   "exclude": ["node_modules"]
 }
