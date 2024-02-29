@@ -5,7 +5,7 @@ type Destination = {
   title: string;
   url: string;
   includes: (
-    | "ACCOMODATION"
+    | "ACCOMMODATION"
     | "ALL_FLIGHTS"
     | "ALL_TRANSFERS"
     | "SOME_MEALS"

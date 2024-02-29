@@ -3,7 +3,6 @@
 import { useDebounce } from "use-debounce";
 import { useDeviceType } from "@hooks";
 import DestinationsGridComponent from "../components/DestinationsGrid";
-import { DestinationsGridProps as DestinationGridComponentProps } from "../components/DestinationsGrid";
 import { Destination, Country } from "@types";
 import { useSearchStore } from "@store";
 
@@ -14,7 +13,7 @@ type DestinationsGridProps = {
 };
 
 const MAPPED_INCLUDES = {
-  ACCOMODATION: "Accommodation",
+  ACCOMMODATION: "Accommodation",
   ALL_FLIGHTS: "All flights",
   ALL_TRANSFERS: "All transfers",
   SOME_MEALS: "Some meals",
