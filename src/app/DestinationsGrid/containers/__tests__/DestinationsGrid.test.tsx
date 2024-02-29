@@ -1,6 +1,6 @@
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import { useSearchStore } from "@store";
-import DestinationGridContainer from "../../../containers/DestinationsGrid";
+import DestinationGridContainer from "../DestinationsGrid";
 import SearchInput from "@components/SearchInput/components/SearchInput";
 
 import { MOCK_RAW_DESTINATION_1, MOCK_RAW_DESTINATION_2 } from "./mocks";
