@@ -1,7 +1,7 @@
 import { SxProps, Theme } from "@mui/material";
 
 const pricingColumn = (theme: Theme) => ({
-  [theme.breakpoints.up("md")]: {
+  [theme.breakpoints.up("lg")]: {
     textAlign: "right",
   },
   [theme.breakpoints.down("md")]: {

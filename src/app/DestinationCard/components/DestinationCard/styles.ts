@@ -4,9 +4,12 @@ const cardContainer = {
   borderRadius: 4,
 };
 
-const cardImage: SxProps = {
-  height: 300,
-};
+const cardImage = (theme: Theme) => ({
+  [theme.breakpoints.down("lg")]: {
+    height: 300,
+  },
+  height: "100%",
+});
 
 const cardDetails: SxProps = {
   paddingY: 2,
