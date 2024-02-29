@@ -41,8 +41,8 @@ const DestinationCardFeatures = ({
         )}
       </Box>
       <Box>
-        {includes?.map((include) => (
-          <Box sx={styles.includeContainer} key={include}>
+        {includes?.map((include, index) => (
+          <Box key={`${include}${index}`} sx={styles.includeContainer}>
             {ICONS_BY_FEATURES[include]}
             <Typography ml={1} variant="body2" color="primary.secondary">
               {include}
